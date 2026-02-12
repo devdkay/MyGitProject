@@ -22,9 +22,9 @@ elif choice == "3":
 
 elif choice == "4":
     if num2 == 0:
-        print("Error: Division by zero is not allowed.")
+        print("Error: Division by zero.")
     else:
         print("Result =", num1 / num2)
 
 else:
-    print("Invalid choice! Please select 1, 2, 3, or 4.")
+    print("Invalid! Please select 1 to 4.")
